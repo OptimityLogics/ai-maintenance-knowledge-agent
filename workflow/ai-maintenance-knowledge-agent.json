@@ -154,14 +154,21 @@
           "mappingMode": "defineBelow",
           "value": {
             "logged_at": "={{ $now }}",
-            "machine_id": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('machine_id', `\`, 'string') }}",
-            "error_code": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('error_code', `\`, 'string') }}",
-            "summary": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('summary', `\`, 'string') }}",
-            "severity": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('severity', `\`, 'string') }}",
-            "source_document": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('source_document', `\`, 'string') }}"
+            "machine_id": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('machine_id', ``, 'string') }}",
+            "error_code": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('error_code', ``, 'string') }}",
+            "summary": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('summary', ``, 'string') }}",
+            "severity": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('severity', ``, 'string') }}",
+            "source_document": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('source_document', ``, 'string') }}"
           },
           "matchingColumns": [],
-          "schema": ["logged_at", "machine_id", "error_code", "summary", "severity", "source_document"].map((id) => ({id, displayName: id, required: false, defaultMatch: false, display: true, type: "string", canBeUsedToMatch: true}))
+          "schema": [
+            {"id":"logged_at","displayName":"logged_at","required":false,"defaultMatch":false,"display":true,"type":"string","canBeUsedToMatch":true},
+            {"id":"machine_id","displayName":"machine_id","required":false,"defaultMatch":false,"display":true,"type":"string","canBeUsedToMatch":true},
+            {"id":"error_code","displayName":"error_code","required":false,"defaultMatch":false,"display":true,"type":"string","canBeUsedToMatch":true},
+            {"id":"summary","displayName":"summary","required":false,"defaultMatch":false,"display":true,"type":"string","canBeUsedToMatch":true},
+            {"id":"severity","displayName":"severity","required":false,"defaultMatch":false,"display":true,"type":"string","canBeUsedToMatch":true},
+            {"id":"source_document","displayName":"source_document","required":false,"defaultMatch":false,"display":true,"type":"string","canBeUsedToMatch":true}
+          ]
         },
         "options": {}
       },
