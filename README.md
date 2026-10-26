@@ -8,6 +8,10 @@ A document-grounded manufacturing maintenance assistant built with **n8n, Google
 
 > **Safety notice:** This repository is a demonstration using synthetic training documents. It is not a certified maintenance system or a substitute for approved site procedures and qualified personnel.
 
+## Demo Video
+
+Watch the AI Maintenance Knowledge Agent demo: [View on YouTube](https://youtu.be/biVHrnh4g5I?si=Uw5EDlmsm-2Y-OG-).
+
 ## Overview
 
 The agent helps technicians search machine-specific error codes, maintenance procedures, normal operating values, and service information. It is designed to answer from retrieved source documents, identify the source, and avoid inventing troubleshooting advice when evidence is missing.
