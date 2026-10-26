@@ -65,9 +65,9 @@ The workflow prompt instructs the agent to:
 ## Repository contents
 
 - `workflow/ai-maintenance-knowledge-agent.json` — sanitized n8n workflow export.
-- `docs/AI_Maintenance_Knowledge_Agent_Optimity_Logics.docx` — project overview document.
+- `docs/AI_Maintenance_Knowledge_Agent_Optimity_Logics.md` — project overview and reported test notes.
 - `docs/assets/project-banner.svg` — project banner.
-- `docs/source-documents/` — five sample PDF source documents.
+- `docs/source-documents/` — readable Markdown transcriptions of the five supplied sample PDF sources.
 
 ## Setup
 
