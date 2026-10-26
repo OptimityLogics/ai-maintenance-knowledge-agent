@@ -118,4 +118,6 @@ The project overview reports successful tests for machine-specific E45 handling,
 
 Never commit API keys, OAuth tokens, passwords, personal data, or private production documents. Restrict access to workflows, source documents, and incident logs according to organizational policy.
 
-Prepared for **Optimity Logics** as an AI automation demonstration.
+---
+
+**Built by [Optimity Logics](https://optimitylogics.com/)**
